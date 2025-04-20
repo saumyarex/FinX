@@ -113,7 +113,7 @@ const News = () => {
             country: country,
             page: page,
             pageSize: articlesPerPage,
-            apiKey: '63359c1a860f4d699398a8766f9cce3c', // Replace with your actual API key
+            apiKey: '', // Replace with your actual API key
           },
         });
         setArticles(response.data.articles);
